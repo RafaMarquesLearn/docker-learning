@@ -5,5 +5,5 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - C:/Users/rafael_marques/Documents/code/docker/createFileFromContainer/data:/data
+      - C:/data:/data
     command: ./myScript.sh
