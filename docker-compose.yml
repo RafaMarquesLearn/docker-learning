@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  test-creation:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - C:/Users/rafael_marques/Documents/code/docker/createFileFromContainer/data:/data
+    command: ./myScript.sh
